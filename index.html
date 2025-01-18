@@ -1,22 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <p>content</p>
+  <div class="container">
+
+    <div class="sidebar">
+      <div class="logo">
+        <h1 class="company-name">company</h1>
+      </div>
+
+      <nav class="nav">
+        <div class="main-links">
+          <div class="navlink">home</div>
+          <div class="navlink">profile</div>
+          <div class="navlink">messages</div>
+          <div class="navlink">history</div>
+          <div class="navlink">tasks</div>
+          <div class="navlink">communities</div>
         </div>
-        <header class="header">
-            <p>content</p>
-        </header>
-        <main class="main">
-            <p>content</p>
-        </main>
+
+        <div class="utility-links">
+          <div class="navlink">settings</div>
+          <div class="navlink">support</div>
+          <div class="navlink">privacy</div>
+        </div>
+      </nav>
     </div>
+
+    <header class="header">
+      <div class="search">
+        <input type="search" name="search" id="search">
+      </div>
+
+      <div class="profile-link">
+        <h3>name surname</h3>
+      </div>
+
+      <div class="greeting">
+        <p>hi there,</p>
+        <h2 class="greeting-username">name surname (@handle)</h2>
+      </div>
+
+      <div class="actions">
+        <button class="action-button" id="new-button">new</button>
+
+        <button class="action-button" id="upload-button">upload</button>
+
+        <button class="action-button" id="share-button">share</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="your-projects">
+        <h4>your projects</h4>
+        <div class="card">
+          <h5 class="project-title">super cool project</h5>
+          <p class="project-description"></p>
+        </div>
+        <div class="card">
+          <h5 class="project-title">less cool project</h5>
+          <p class="project-description"></p>
+        </div>
+        <div class="card">
+          <h5 class="project-title">impossible app</h5>
+          <p class="project-description"></p>
+        </div>
+        <div class="card">
+          <h5 class="project-title">easy peasy app</h5>
+          <p class="project-description"></p>
+        </div>
+        <div class="card">
+          <h5 class="project-title">ad blocker</h5>
+          <p class="project-description"></p>
+        </div>
+        <div class="card">
+          <h5 class="project-title">money maker</h5>
+          <p class="project-description"></p>
+        </div>
+      </section>
+
+      <section class="announcements">
+        <h4>announcements</h4>
+        <div class="annoucement">
+          <h5 class="announcement-title">site maintenance</h5>
+          <p class="announcement-description"></p>
+        </div>
+        <div class="annoucement">
+          <h5 class="announcement-title">community share day</h5>
+          <p class="announcement-description"></p>
+        </div>
+        <div class="annoucement">
+          <h5 class="announcement-title">updated privacy policy</h5>
+          <p class="announcement-description"></p>
+        </div>
+      </section>
+
+      <section class="trending">
+        <h4>trending</h4>
+        <div class="trending-project">
+          <p class="user-handle">@tegan</p>
+          <p class="project-name">world peace builder</p>
+        </div>
+        <div class="trending-project">
+          <p class="user-handle">@morgan</p>
+          <p class="project-name">super cool project</p>
+        </div>
+        <div class="trending-project">
+          <p class="user-handle">@kendall</p>
+          <p class="project-name">life changing app</p>
+        </div>
+        <div class="trending-project">
+          <p class="user-handle">@alex</p>
+          <p class="project-name">no traffic maker</p>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
