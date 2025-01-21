@@ -44,6 +44,11 @@ body {
   width: 50px;
 }
 
-.icon {
+svg {
   fill: currentColor;
+  height: 1em;
+}
+
+#branding-logo {
+  height: 2em;
 }
