@@ -19,20 +19,20 @@ Now that you’ve had plenty of practice using Grid, we are going to build a ful
 [x] In your CSS file, apply Grid properties until you have this basic layout built.
 
 ### Step 3: Nesting
-[ ] Taking it one section at a time, begin nesting child elements under the parent elements in the HTML. Remember that you can keep making grid containers within grid containers.
+[x] Taking it one section at a time, begin nesting child elements under the parent elements in the HTML. Remember that you can keep making grid containers within grid containers.
 
-[ ] In the sidebar, use more grids to lay out the navigation and branding sections.
+[x] In the sidebar, use more grids to lay out the navigation and branding sections.
 
-[ ] In the header, use more grids to lay out the search bar, user info and buttons.
+[x] In the header, use more grids to lay out the search bar, user info and buttons.
 
-[ ] For the main-content, use more grids to lay out the projects, announcements and trending items.
+[x] For the main-content, use more grids to lay out the projects, announcements and trending items.
 
-[ ] Fill out some dummy content and placeholder images so you can position all of your grid items.
+[x] Fill out some dummy content and placeholder images so you can position all of your grid items.
 
 ### Step 4: Gather assets
 [ ] Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
 
-[ ] All of the icons and more can be downloaded as SVGs from Material Design Icons.
+[x] All of the icons and more can be downloaded as SVGs from Material Design Icons.
 
 [ ] Choose your own fonts! The design example uses Roboto, which is available with Google fonts. (You may want to review the More Text Styles Lesson for information about how to include external fonts in your projects).
 

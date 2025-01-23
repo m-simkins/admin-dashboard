@@ -122,3 +122,21 @@ svg {
   grid-area: main-photo;
 }
 
+.main {
+  display: grid;
+  grid-template: 
+    "your-projects announcements"
+    "your-projects trending"
+   / 3fr      1fr
+  ; 
+}
+
+.your-projects {
+  grid-area: your-projects;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.your-projects > h4 {
+  grid-column: 1 / span 2;
+}
