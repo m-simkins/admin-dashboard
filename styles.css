@@ -1,5 +1,9 @@
 :root {
-  --text-color: #000;
+  --black: #24253d;
+  --white: #fbfbfb;
+  --grey: #e4e9ec;
+  --primary: #007cbe;
+  --accent: #fbaf00;
 }
 
 * {
@@ -9,8 +13,9 @@
 }
 
 body {
-  background-color: #666;
-  color: var(--text-color);
+  background-color: var(--grey);
+  color: var(--black);
+  font-family: sans-serif;
 }
 
 svg {
@@ -22,17 +27,22 @@ svg {
   display: grid;
   grid-template: 
     "sidebar header"
-    "sidebar main" 2fr
-   / 250px   auto;
+    "sidebar main"
+   /* / 250px   auto; */
+   /* delete below  */
+   / 15px auto;
   height: 100vh;
 }
 
 .sidebar {
   grid-area: sidebar;
-  background-color: #333;
+  background-color: var(--primary);
   display: grid;
   grid-template-rows: repeat(3, max-content);
   gap: 20px;
+  color: var(--white);
+  /* delete below  */
+  overflow: hidden;
 }
 
 .branding {
@@ -51,7 +61,7 @@ svg {
 }
 
 .navlink, .utility {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 2px 10px;
   display: grid;
   grid-template-columns: repeat(2, max-content);
@@ -61,7 +71,38 @@ svg {
 
 .header {
   grid-area: header;
-  background-color: #aaa;
+  background-color: var(--white);
+  display: grid;
+  grid-template: 
+    "search profile-link"
+    "greeting actions"
+  ;
+}
+
+.profile-link {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.greeting {
+  display: grid;
+  grid-template:
+    "main-photo hi-there"
+    "main-photo greeting-username"
+  ;
+}
+
+.action-button {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 5px 12px;
+  border-radius: 15px;
+}
+
+.action-button:hover {
+  background-color: var(--accent);
+  color: var(--black);
 }
 
 .main {
@@ -75,3 +116,9 @@ svg {
 .small {
   width: 50px;
 }
+
+.large {
+  width: 75px;
+  grid-area: main-photo;
+}
+
